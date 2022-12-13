@@ -18,3 +18,10 @@ const greetingsV2 = () => {
 }
 
 greetingsV2()
+
+// arrow function with arguments
+const greetingsWithNameV2 = (name, message) => {
+    console.log(name, message)
+}
+
+greetingsWithNameV2("John ", "Hello from Arrow function V2.")
